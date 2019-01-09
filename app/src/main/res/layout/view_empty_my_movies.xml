@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="PrivateResource">
+
+    <data>
+        <variable name="visible" type="boolean"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="68dp"
+        android:orientation="vertical"
+        app:visible="@{visible}">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTop="@drawable/vd_empty_movie_120dp"
+            android:textAppearance="@style/TextAppearance.List.Empty"
+            android:text="@string/empty_list_my_movies"
+            android:textColor="#BDBDBD"
+            android:textStyle="bold"
+            android:enabled="false"/>
+    </LinearLayout>
+</layout>

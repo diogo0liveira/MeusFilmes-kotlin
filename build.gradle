@@ -1,0 +1,65 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.anko_version='0.10.8'
+    ext.kotlin_version = '1.3.11'
+    ext.compiler_version = '3.1.3'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0-alpha10'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    minSdkVersion = 22
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+
+    materialVersion = '1.1.0-alpha02'
+    appcompatVersion = '1.1.0-alpha01'
+    cardviewVersion = '1.0.0'
+    recyclerviewVersion = '1.1.0-alpha01'
+    coordinatorlayoutVersion = '1.1.0-alpha01'
+    constraintlayoutVersion = '2.0.0-alpha3'
+
+    /* External */
+    daggerVersion = '2.20'
+    daggerAndroidVersion = '2.20'
+    glideVersion = '4.8.0'
+    gsonVersion = '2.8.5'
+    rxjavaVersion = '2.2.0'
+    rxandroidVersion = '2.1.0'
+    guavaVersion = '27.0.1-jre'
+    retrofitVersion = '2.5.0'
+    okhttp3Version= '3.12.1'
+    okhttp3LoggingVersion = '3.12.1'
+
+    /* Test */
+    testRulesVersion = '1.1.1'
+    testRunnerVersion = '1.1.1'
+
+    junitVersion = '4.13-beta-1'
+    extJunitVersion = '1.1.0'
+    runnerVersion = '1.1.1'
+    espressoCoreVersion = '3.1.1'
+    mockitoCoreVersion = '2.21.0'
+    mockitoAndroidVersion = '2.21.0'
+}

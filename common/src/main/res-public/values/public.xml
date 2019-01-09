@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <public type="color" name="white"/>
+    <public type="color" name="icon_dark"/>
+    <public type="color" name="icon_light"/>
+
+    <public type="color" name="icon"/>
+    <public type="color" name="white"/>
+    <public type="color" name="alert_red"/>
+    <public type="color" name="alert_gray"/>
+    <public type="color" name="alert_yellow"/>
+    <public type="color" name="alert_green"/>
+</resources>

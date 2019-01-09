@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Meus Filmes</string>
+
+    <string name="app_internal_error_client">Erro inesperado</string>
+    <string name="app_internal_server_unavailable">Serviço indisponível</string>
+    <string name="app_internal_no_connection">Sem conexão com a internet</string>
+
+    <string name="empty_list_my_movies">Adicione seu filmes favoritos</string>
+    <string name="empty_list_search_movies">nenhum resultado</string>
+
+    <string name="movie_detail_release_date">RELEASE DATE %1$s</string>
+    <string name="movie_detail_not_found">filme não localizado</string>
+
+    <string name="menu_order_title">ordenar por</string>
+    <string name="menu_order_by_title">titulo</string>
+    <string name="menu_order_by_date">lançamento</string>
+    <string name="menu_search_movies">pesquisar&#8230;</string>
+</resources>

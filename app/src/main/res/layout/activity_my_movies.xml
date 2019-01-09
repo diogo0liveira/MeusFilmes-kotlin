@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="PrivateResource,ContentDescription">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/anchor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/movies_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="45dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/view_row_movie">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ViewStub
+            android:id="@+id/message_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="68dp"
+            android:inflatedId="@+id/message_empty"
+            android:layout="@layout/view_empty_my_movies"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/vd_add_24dp"
+            android:tint="@android:color/white"
+            app:rippleColor="@android:color/white"
+            app:layout_anchor="@id/movies_list"
+            app:layout_anchorGravity="bottom|end"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

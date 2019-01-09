@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Base -->
+    <style name="Base.AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimaryDark">@color/primary_application_dark</item>
+        <item name="colorPrimary">@color/primary_application</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <!-- Application -->
+    <style name="AppTheme" parent="Base.AppTheme"/>
+
+    <!-- Not Actionbar -->
+    <style name="AppTheme.NoActionBar" parent="Base.AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="app_bar_height">350dp</dimen>
+    <!--<dimen name="margin_activity_vertical">16dp</dimen>-->
+    <dimen name="margin_activity_horizontal">16dp</dimen>
+</resources>

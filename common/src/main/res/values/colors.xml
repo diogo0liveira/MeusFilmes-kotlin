@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="icon_dark">#757575</color>
+    <color name="icon_light">#9E9E9E</color>
+
+    <color name="alert_red">#E41C23</color>
+    <color name="alert_gray">#B3B3B3</color>
+    <color name="alert_green">#4CAF50</color>
+    <color name="alert_yellow">#FDC007</color>
+</resources>

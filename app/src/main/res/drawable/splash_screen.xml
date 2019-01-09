@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item>
+        <color android:color="@color/design_default_color_primary"/>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/ic_splash_movies"
+            android:gravity="center"
+            android:antialias="true">
+        </bitmap>
+    </item>
+</layer-list>

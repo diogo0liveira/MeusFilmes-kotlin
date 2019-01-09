@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_cmon_version">Versão:\u0020</string>
+
+    <string name="network_cmon_dialog_title">Rede</string>
+    <string name="network_cmon_dialog_no_connection">Sem conexão com a internet.</string>
+    <string name="network_cmon_dialog_error_connection">Há algo de errado com sua conexão.\nVerifique sua conexão acessando alguma pagina da web através do navegador.</string>
+    <string name="picker_cmon_gallery_title">Selecione</string>
+    <string name="permission_cmon_dialog_button_back">voltar</string>
+    <string name="permission_cmon_dialog_button_settings">configurações</string>
+    <string name="permission_cmon_dialog_title">Permissão negada</string>
+    <string name="permission_cmon_dialog_contacts">Para prosseguir é necessário permissão para utilizar o gerenciador de contas do dispositivo. Caso contrário não será possivel utilizar está função.</string>
+    <string name="permission_cmon_dialog_contacts_accept">É necessário permissão para utilizar o gerenciador de contas.\n\n Para permitir, clique em: <b>Configurações > Permissões</b> e ative a opção <b>Contatos</b>.</string>
+    <string name="permission_cmon_dialog_camera">Se você negar acesso a camera do dispositivo, não será possivel utilizar funções como foto, video e etc.</string>
+    <string name="permission_cmon_dialog_camera_accept">Para funções como tirar fotos, videos é necessário permissão para utilizar a camera.\n\n Para permitir, clique em: <b>Configurações > Permissões</b> e ative a opção <b>Camera</b>.</string>
+    <string name="permission_cmon_dialog_location">Se você negar acesso a localização do dispositivo, não será possivel encontrar sua localização atual.</string>
+    <string name="permission_cmon_dialog_location_accept">Para encontrar sua localização atual é necessário permissão para utilizar o GPS do dispositivo.\n\n Para permitir, clique em: <b>Configurações > Permissões</b> e ative a opção <b>Local</b>.</string>
+    <string name="permission_cmon_dialog_storage">Se você negar acesso ao armazenamento do dispositivo, não será possivel salvar fotos, videos etc.</string>
+    <string name="permission_cmon_dialog_storage_accept">Para salvar fotos, videos é necessário permissão para utilizar o armazenamento do dispositivo.\n\n Para permitir, clique em: <b>Configurações > Permissões</b> e ative a opção <b>Armazenamento</b>.</string>
+    <string name="permission_cmon_rationale_camera">Necessário permissão para camera.</string>
+    <string name="permission_cmon_rationale_account">Necessário permissão para conta.</string>
+    <string name="permission_cmon_rationale_location">Necessário permissão para localização.</string>
+    <string name="permission_cmon_rationale_storage">Necessário permissão de armazenamento.</string>
+    <string name="permission_cmon_accepted">Permissão concedida.</string>
+    <string name="permission_cmon_snackbar_know_more">saiba mais</string>
+
+    <string name="mask_date_long_month_short">%1$s de %2$s. de %3$s</string>
+</resources>

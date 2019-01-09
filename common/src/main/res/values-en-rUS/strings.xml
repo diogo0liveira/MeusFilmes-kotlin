@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_cmon_version">Version:\u0020</string>
+
+    <string name="network_cmon_dialog_title">Network</string>
+    <string name="network_cmon_dialog_no_connection">No internet connection.</string>
+    <string name="network_cmon_dialog_error_connection">There is something wrong with your connection.\nCheck your connection by accessing some webpage through the browser.</string>
+    <string name="picker_cmon_gallery_title">Select</string>
+    <string name="permission_cmon_dialog_button_back">Back</string>
+    <string name="permission_cmon_dialog_button_settings">Settings</string>
+    <string name="permission_cmon_dialog_title">Permission denied</string>
+    <string name="permission_cmon_dialog_contacts">To proceed you need permission to use the device accounts manager. Otherwise it will not be possible to use this function.</string>
+    <string name="permission_cmon_dialog_contacts_accept">You need permission to use the accounts manager.\n\n To allow, click: <b>Settings > Permission </b> and enable the option<b>Contacts</b>.</string>
+    <string name="permission_cmon_dialog_camera">If you deny access to the camera, you will not be able to use the scanner function to scan the QR code or take a picture of the contents that will be stored in the containers.</string>
+    <string name="permission_cmon_dialog_camera_accept">For QR Code reader or taking a picture of the contents that will be stored in the containers, it is necessary to give permission to use the camera.\n\n To allow, click: <b>Settings  > Permission </b> and enable the option <b>Camera</b>.</string>
+    <string name="permission_cmon_dialog_location">If you deny access to the device location will not be possible to find your current location.</string>
+    <string name="permission_cmon_dialog_location_accept">To find your current location is necessary permission to use the device\'s GPS. To enable, click on: <b>Settings > Permissions</b> and enable the <b>Location</b>.</string>
+    <string name="permission_cmon_dialog_storage">If access to the storage of the device is denied, you will not be able to save pictures taken of the content.</string>
+    <string name="permission_cmon_dialog_storage_accept">To save pictures taken of the content, permission to use the storage of the device is required.\n\n To allow, click: <b>Settings  > Permission </b> and enable the option<b>Storage</b>.</string>
+    <string name="permission_cmon_rationale_camera">Permission to access the camera required.</string>
+    <string name="permission_cmon_rationale_account">Account permission required.</string>
+    <string name="permission_cmon_rationale_location">Necessary permission for location.</string>
+    <string name="permission_cmon_rationale_storage">Storage permission required.</string>
+    <string name="permission_cmon_accepted">Permission granted.</string>
+    <string name="permission_cmon_snackbar_know_more">more info</string>
+
+    <string name="mask_date_long_month_short">%1$s. %2$s, %3$s</string>
+</resources>

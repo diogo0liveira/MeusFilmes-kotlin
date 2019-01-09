@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable name="visible" type="boolean"/>
+        <variable name="showProgressBar" type="boolean"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="68dp"
+        app:visible="@{visible}">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:visible="@{showProgressBar}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/vd_empty_search_120dp"
+            android:textAppearance="@style/TextAppearance.List.Empty"
+            android:text="@string/empty_list_search_movies"
+            android:textColor="#BDBDBD"
+            android:textStyle="bold"
+            android:enabled="false"
+            app:visible="@{!showProgressBar}"/>
+    </FrameLayout>
+</layout>

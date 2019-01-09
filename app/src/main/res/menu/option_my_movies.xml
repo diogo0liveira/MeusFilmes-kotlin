@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_order"
+        android:icon="@drawable/vd_filter_list_24dp"
+        android:title="@string/menu_order_title"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <group
+                android:id="@+id/group_order"
+                android:checkableBehavior="single">
+                <item android:id="@+id/menu_order_title"
+                    android:title="@string/menu_order_by_title"/>
+                <item android:id="@+id/menu_order_date"
+                    android:title="@string/menu_order_by_date"/>
+            </group>
+        </menu>
+    </item>
+</menu>
