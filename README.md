@@ -7,7 +7,7 @@ Teste api "themoviedb".
 ## Screenshots
 
 |Lista|Busca|Resultado|
-|:-:|:-:|:-:|
+| :---: |:---:| :---:|
 |![First](/docs/print_list.png?raw=true)|![Sec](/docs/print_search.png?raw=true)|![Third](/docs/print_search_result.png?raw=true)|
 
 - Kotlin,
